@@ -7,6 +7,6 @@ test3
 # логи crash.log crash.*.log
 # файлы override.tf override.tf.json *_override.tf *_override.tf.json
 # файлы конфигурации .terraformrc terraform.rc
+# Добавление тега v0.1
 #
-#
-#
+# new line
