@@ -3,7 +3,7 @@
 Проверяем что находимся в нужном репозитории (git remote –v)
 
 
-1)	git show aefea
+1)	git show aefea                                                     
 полный хэш - aefead2207ef7e2aa5dc81a34aedf0cad4c32545
 комментарий - Update CHANGELOG.md
 
