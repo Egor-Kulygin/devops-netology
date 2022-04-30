@@ -2,9 +2,12 @@
 Переходим в клонированный репозиторий (cd terraform)
 Проверяем что находимся в нужном репозитории (git remote –v)
 
+
 1)	git show aefea
 полный хэш - aefead2207ef7e2aa5dc81a34aedf0cad4c32545
 комментарий - Update CHANGELOG.md
+
+
 2)	git show 85024d3 
 
 (находит тег вместо хэша, принудительно искать хэш, команду не нашел)
@@ -36,6 +39,7 @@ git log b8d720 --pretty=format:'%h' --graph -5
 |/
 *   '56cd7859e'
 
+
 4) git log  v0.12.23..v0.12.24  --oneline
 33ff1c03b (tag: v0.12.24) v0.12.24
 b14b74c49 [Website] vmc provider links
@@ -56,6 +60,7 @@ dd01a3507 Update CHANGELOG.md
 git show 8c928e83589d90a031f811fae52a81be7153e82f
 ctrl + F поиск по «func providerSource»
 итог - func providerSource(services *disco.Disco)
+
 
 6) git grep "func globalPluginDirs" (находим где находится функция)
 plugins.go:func globalPluginDirs() []string {
