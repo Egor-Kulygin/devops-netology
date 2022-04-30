@@ -71,6 +71,9 @@ git log -s -L :globalPluginDirs:plugins.go –oneline
 66ebff90c move some more plugin search path logic to command
 8364383c3 Push plugin discovery down into command package
 
+но если использовать команду git grep "globalPluginDirs" то появится ещё
+commands.go: (но как я понимаю это просто использование функции в этом файле, а это нам не подходит)
+
 7) Author: Martin Atkins <mart@degeneration.co.uk>
     git log -SsynchronizedWriters
  
