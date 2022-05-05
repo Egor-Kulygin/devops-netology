@@ -35,7 +35,7 @@ vagrant@vagrant: ~$ cat file1 - Проверяем
 test111  
 vagrant@vagrant: ~$ cat file2  - Проверяем  
 test222  
-vagrant@vagrant: ~$ cat <file1 >file2   перезаписываем  
+vagrant@vagrant: ~$ cat < file1 > file2   перезаписываем  
 vagrant@vagrant: ~$ cat file1 - Проверяем  
 test111  
 vagrant@vagrant: ~$ cat file2 - Проверяем  
