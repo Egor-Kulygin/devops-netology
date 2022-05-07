@@ -39,7 +39,7 @@ argument list too long
 ### 11)
 Chapter 6: Bash Features  
 -d file True if file exists and is a directory.  
-Тоесть [[-d /tmp]] показывает параметр Истина (true) если существует каталог
+Тоесть [[-d /tmp]] показывает параметр Истина (true) если существует каталог  
 0 = true
 
 
