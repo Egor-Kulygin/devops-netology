@@ -155,7 +155,7 @@ Number of key(s) added: 1
 Now try logging into the machine, with:   "ssh 'vagrant@192.168.1.10'"
 and check to make sure that only the key(s) you wanted were added.
 
-vagrant@linux1:~$ ssh vagrant@192.168.1.10
+vagrant@vagrant:~$ ssh vagrant@192.168.1.10
 Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-91-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
